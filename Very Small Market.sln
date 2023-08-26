@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User_Management_Service", "User_Management_Service\User_Management_Service.csproj", "{E460330C-C874-45C5-A116-983BFC7396F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Management_Service", "Product_Management_Service\Product_Management_Service.csproj", "{911A1867-EB18-4BD1-B3C2-4CB0C0FDF7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order_Payment_Management_Service", "Order_Payment_Management_Service\Order_Payment_Management_Service.csproj", "{42F884CD-C434-4ABF-98F1-E2D79BEF1AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E460330C-C874-45C5-A116-983BFC7396F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E460330C-C874-45C5-A116-983BFC7396F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E460330C-C874-45C5-A116-983BFC7396F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911A1867-EB18-4BD1-B3C2-4CB0C0FDF7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911A1867-EB18-4BD1-B3C2-4CB0C0FDF7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911A1867-EB18-4BD1-B3C2-4CB0C0FDF7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911A1867-EB18-4BD1-B3C2-4CB0C0FDF7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F884CD-C434-4ABF-98F1-E2D79BEF1AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F884CD-C434-4ABF-98F1-E2D79BEF1AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F884CD-C434-4ABF-98F1-E2D79BEF1AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F884CD-C434-4ABF-98F1-E2D79BEF1AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
