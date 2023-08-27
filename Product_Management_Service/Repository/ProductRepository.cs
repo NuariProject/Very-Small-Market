@@ -37,7 +37,9 @@ namespace Product_Management_Service.Repository
                     var productId = product.ProductId;
 
                     // insert category list
-                    CreateCategory(productId, model.CategoryList);
+                    await CreateCategory(productId, model.CategoryList);
+
+                    await _db.SaveChangesAsync();
 
                     trx.Commit();
 
