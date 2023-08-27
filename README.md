@@ -22,7 +22,7 @@ The VSM System consists of three main services:
 - **Framework:** .NET Core 6
 - **Version Control:** GIT
 - **Database:** SQL Server
-- **Others:** Database First Method
+- **Others:** Database First Method, REST API, JWT Bearer, AutoMapper
 
 ## Requirements
 
